@@ -1,0 +1,47 @@
+/*border around body 20px
+body has explicity width*/
+/*left border on paragraph...all caps for dates*/
+/*hr element*/
+body {
+	border: 20px solid #bdc3c7;
+	width: 80%;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 700px;
+}
+
+.date {
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 0.2rem;
+}
+
+h2 {
+	color: #8585ad;
+	font-weight: bold;
+	font-size: 2.0rem;
+}
+
+.byline {
+	border-left: 2px solid #330000;
+	padding-left: 5px;
+	color: #330000;
+}
+
+p {
+	padding-left: 4px;
+	color: #3a1313;
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+
+hr{
+	border:0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
