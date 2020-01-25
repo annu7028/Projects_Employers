@@ -1,0 +1,33 @@
+body{
+	margin: 6em 35 19em 3%;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.navbar{
+	background-color: #e6b800;
+	overflow: hidden;
+}
+
+.navbar a{
+	float: left;
+	color: #2d2e72;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar img{
+	float: right;
+}
+
+h2{
+	font-style: oblique;
+}
+
+.container{
+	padding: 0 20px;
+}
+
+/*NEED TO EDIT ALGINMENT OF iframe*/
